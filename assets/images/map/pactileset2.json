@@ -1,0 +1,14 @@
+{ "columns":19,
+ "image":"..\/..\/..\/..\/pactileset2.gif",
+ "imageheight":384,
+ "imagewidth":625,
+ "margin":0,
+ "name":"pactileset2",
+ "spacing":0,
+ "tilecount":228,
+ "tiledversion":"1.9.1",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.8"
+}

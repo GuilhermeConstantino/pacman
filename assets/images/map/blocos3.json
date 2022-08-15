@@ -1,0 +1,14 @@
+{ "columns":11,
+ "image":"background4.png",
+ "imageheight":199,
+ "imagewidth":362,
+ "margin":0,
+ "name":"blocos3",
+ "spacing":0,
+ "tilecount":66,
+ "tiledversion":"1.9.1",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.8"
+}
