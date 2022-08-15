@@ -1,6 +1,6 @@
 # pacman
 
-A new Flutter project. xcv
+A new Flutter project.
 
 ## Getting Started
 
