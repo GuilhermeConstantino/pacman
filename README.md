@@ -1,16 +1,1 @@
-# pacman
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Para baixar esse repositório em um software de criação de código vá no terminal e com o github instalado digite "git clone -b master https://github.com/udropper/pacman.git" sem as aspas, após isso digite "flutter pub get", isso deve copiar o repositório e instalar os pacotes necessários. Então basta executar o código no emulador de preferencia. Pelo VSCode basta clicar em run enquanto estiver com o arquivo "main.dart" aberto.
