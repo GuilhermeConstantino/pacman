@@ -37,6 +37,7 @@ dependencies:
   bonfire: ^2.7.3
   #just_audio: ^0.9.28
   audioplayers: 0.20.1
+  restart_app: ^1.1.0
 
 dev_dependencies:
   flutter_test:

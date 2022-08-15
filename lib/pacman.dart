@@ -1,6 +1,9 @@
 // import 'dart:html';
 // import 'dart:ui';
 
+import 'dart:io';
+import 'package:flutter/material.dart';
+import 'package:restart_app/restart_app.dart';
 import 'package:bonfire/bonfire.dart';
 import 'package:pacman/game_sprite_sheet.dart';
 import 'package:pacman/ghost.dart';
@@ -24,7 +27,12 @@ class Pacman extends SimplePlayer with ObjectCollision {
     //print(active);
     super.onCollision(component, active);
     if (component is Ghost) {
-      removeFromParent();
+      showDialog(
+          context: context,
+          builder: ((context) => AlertDialog(title: Text('Game Over'))));
+      Future.delayed(const Duration(seconds: 2), () {
+        Restart.restartApp();
+      });
     }
     return active;
   }

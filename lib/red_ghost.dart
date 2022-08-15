@@ -20,7 +20,7 @@ class RedGhost extends SimpleEnemy with ObjectCollision {
   void update(double dt) {
     seeAndMoveToPlayer(
       closePlayer: (player) {},
-      radiusVision: 150,
+      radiusVision: 160,
       margin: 0,
     );
     super.update(dt);
