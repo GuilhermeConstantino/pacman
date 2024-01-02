@@ -1,2 +1,2 @@
 # pacman
-Protótipo de Pacman
+Pacman Prototype
